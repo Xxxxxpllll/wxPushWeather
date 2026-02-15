@@ -2,10 +2,10 @@ name: wx天气预报推送
 
 on:
   schedule:
-     # 启动时间，为 UTC 时间对应北京时间早7点05分
-    - cron : '05 23 * * *'
+     # 启动时间，为 UTC 时间对应北京时间早13点25分
+    - cron : '25 5 * * *'
     # 启动时间，为 UTC 时间对应北京时间晚上10点05分
-    - cron : '05 14 * * *'
+    - cron : '05 13 * * *'
   workflow_dispatch:
 
 permissions:
